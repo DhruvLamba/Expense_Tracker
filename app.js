@@ -1,6 +1,6 @@
 let expenses = [];
 let total = 0;
-
+count=1;
 function addExpense() {
     const name = document.getElementById('expense-name').value;
     const amount = parseFloat(document.getElementById('expense-amount').value);
